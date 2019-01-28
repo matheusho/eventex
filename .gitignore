@@ -1,0 +1,23 @@
+## Remove env
+bin/
+build/
+lib/
+include/
+
+## Mac OS
+.DS_Store
+
+## Remove bytecode
+*.pyc
+*.py[co]
+.Python
+
+## Remove anything byte code
+*.mwb.bak
+
+*~
+*.sqlite
+*.idea
+
+.env
+eventex/staticfiles
